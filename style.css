@@ -1,5 +1,42 @@
 #pasfoto {
     width:150px;
   }
-#body{
+body {
 background-color:#e0e4e4}
+
+body {
+  font-family: Arial;
+}
+
+#navbar {
+  background-color: #af3e3e;
+  padding: 6px 100px;
+  display: block;
+
+}
+
+#navbar a {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  background-color: rgb(255, 255, 255);
+
+}#navbar a:hover{
+  background-color: rgb(155, 155, 155);
+}
+
+footer{
+  background-color:#888888;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left:0;
+  padding-top:15px;
+  width: 100%;
+  height: 70px;
+}
+#contactinfo{
+color: white;
+padding-top: 2px ;
+
+}
+
