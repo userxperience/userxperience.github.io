@@ -1,11 +1,33 @@
 #pasfoto {
     width:150px;
     position: absolute;
-    top: 80px;
+    top: 130px;
     right: 20px;
   }
 body {
 background-color:#e0e4e4}
+
+#hzlogo{
+  width:150px;
+  position: absolute;
+  top: 400px;
+  right: 20px;
+}
+
+#snoepiefoto{
+  width:150px;
+  position: static;
+  top: px;
+  left: 200px;
+}
+
+
+#ravifoto{
+  width:150px;
+  position: static;
+  top: px;
+  right: px;
+}
 
 body {
   font-family: Arial;
