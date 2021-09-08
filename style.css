@@ -1,5 +1,8 @@
 #pasfoto {
     width:150px;
+    position: absolute;
+    top: 80px;
+    right: 20px;
   }
 body {
 background-color:#e0e4e4}
@@ -10,33 +13,85 @@ body {
 
 #navbar {
   background-color: #af3e3e;
-  padding: 6px 100px;
+
+
   display: block;
+
+  bottom: 0;
+  right: 10;
+  left:10;
+  padding-top:10px;
+  width: 100%;
+  height: 30px;
 
 }
 
 #navbar a {
   color: rgb(0, 0, 0);
   padding: 5px;
+  margin-left: 5px;
   background-color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+#navbar a:hover{
+  background-color: rgb(173, 173, 173);
+  text-decoration: underline;
+}
 
-}#navbar a:hover{
-  background-color: rgb(155, 155, 155);
+#currentpage{
+  background-color:rgb(173, 173, 173) !important;
+  text-decoration: underline !important;
 }
 
 footer{
+  bottom:0px;
   background-color:#888888;
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  left:0;
-  padding-top:15px;
+  bottom: 0px;
+  right: 0px;
+  left:0px;
+  padding-top:10px;
   width: 100%;
   height: 70px;
+ 
 }
+
 #contactinfo{
 color: white;
-padding-top: 2px ;
+padding-top: 1px ;
+margin-bottom: 5px;
+}
+
+#allcontactinfo{
+  padding-left: 10px;
+}
+
+#tweedecontactinfo {
+text-align: left;
 
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 250px 250px;
+  grid-gap: 10px;
+  padding: 0px;
+}
+
+.grid-container > div {
+
+  text-align: left;
+  padding: 5px 0;}
+  
+  #footerlink:hover {
+    text-decoration: underline;
+    color: blue;
+  }
+  
+  #footerlink:visited{
+color: rgb(207, 207, 207);
+  }
+
+  #footerlink{
+    text-decoration: none;
+    color: white;
+  }
