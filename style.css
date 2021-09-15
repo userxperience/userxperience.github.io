@@ -20,6 +20,15 @@
   left: 200px;
 }
 
+#snoepiefoto:hover     {
+  transform: scale(2.5);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+   z-index: 3;
+  padding-left:50px
+  }
 
 #ravifoto{
   width:150px;
@@ -28,12 +37,23 @@
   right: 20px;
 }
 
+#ravifoto:hover     {
+  transform: scale(2.5);
+  -webkit-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s;
+   z-index: 3;
+  padding-right:px
+  }
+
 #voercode{
     width:300px;
     position: absolute;
     top: 800px;
     right: 200px;
 }
+
 #voercode:hover     {
   transform: scale(2);
   -webkit-transition-duration: 1s;
@@ -62,6 +82,7 @@
   }
 
 body {
+  color:black;
   font-family: Arial;
   margin: 0px;
   background-color:#e0e4e4;
@@ -79,7 +100,6 @@ margin-right: 0px;}
   height: 30px;
   position:static;
   top: 0;
-
 }
 
 /*change padding-top to 30 and position to fixed for a fixed navbar*/

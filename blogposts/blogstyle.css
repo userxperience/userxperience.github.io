@@ -46,6 +46,7 @@ main {
     background-color:rgb(173, 173, 173) !important;
     text-decoration: underline !important;
   }
+
 /*footer below*/
 footer{
     bottom:0px;
@@ -124,3 +125,4 @@ footer{
     .timestamp{
       float:right;
     }
+
