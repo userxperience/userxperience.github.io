@@ -23,7 +23,7 @@
 
 #ravifoto{
   width:150px;
-  position: absolute;
+  position: static;
   top: 135px;
   right: 20px;
 }
@@ -31,7 +31,7 @@
 #voercode{
     width:300px;
     position: absolute;
-    top: 785px;
+    top: 800px;
     right: 200px;
 }
 #voercode:hover     {
@@ -47,7 +47,7 @@
 #weercode{
   width:300px;
   position: absolute;
-  top: 785px;
+  top: 800px;
   right: 700px;
 }
 
