@@ -1,10 +1,10 @@
+/* images below*/
 #pasfoto {
-    width:150px;
-    position: absolute;
-    top: 135px;
-    right: 20px;
+  width:150px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
   }
-
 
 #hzlogo{
   width:150px;
@@ -26,9 +26,9 @@
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-   z-index: 3;
+  z-index: 3;
   padding-left:50px
-  }
+}
 
 #ravifoto{
   width:150px;
@@ -43,15 +43,15 @@
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-   z-index: 3;
+  z-index: 3;
   padding-right:px
-  }
+}
 
 #voercode{
-    width:300px;
-    position: absolute;
-    top: 800px;
-    right: 200px;
+  width:300px;
+  position: absolute;
+  top: 800px;
+  right: 200px;
 }
 
 #voercode:hover     {
@@ -60,7 +60,7 @@
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-   z-index: 3;
+  z-index: 3;
   padding-right:px
   }
 
@@ -77,18 +77,31 @@
   -moz-transition-duration: 1s;
   -o-transition-duration: 1s;
   transition-duration: 1s;
-   z-index: 3;
+  z-index: 3;
   padding-right:px
   }
 
+
+/*body below*/
 body {
   color:black;
   font-family: Arial;
   margin: 0px;
   background-color:#e0e4e4;
- margin-left: 0px;
- margin-right: 0px;}
+  margin-left: 0px;
+  margin-right: 0px;
+}
 
+main{
+  margin:10px;
+  padding-top: 0px;
+}
+  
+
+/*change padding-top to 30 and position to fixed for a fixed navbar*/
+
+
+/*navbar below*/
 #navbar {
   background-color: #af3e3e;
   display: block;
@@ -102,13 +115,6 @@ body {
   top: 0;
 }
 
-/*change padding-top to 30 and position to fixed for a fixed navbar*/
-
-main{margin:10px;
-  padding-top: 0px;
-}
-
-/*navbar below*/
 .navbarbutton {
   color: rgb(0, 0, 0);
   padding: 5px;
@@ -160,7 +166,7 @@ margin-bottom: 5px;
 }
 
 #tweedecontactinfo {
-text-align: left;
+  text-align: left;
 
 }
 
@@ -172,51 +178,53 @@ text-align: left;
 }
 
 .grid-container > div {
-
   text-align: left;
-  padding: 5px 0;}
+  padding: 5px 0;
+}
   
-  #footerlink:hover {
-    text-decoration: underline;
-    color: blue;
-  }
+#footerlink:hover {
+  text-decoration: underline;
+  color: blue;
+}
   
-  #footerlink:visited{
-color: rgb(207, 207, 207);
-  }
+#footerlink:visited{
+  color: rgb(207, 207, 207);
+}
 
-  #footerlink{
-    text-decoration: none;
-    color: white;
-  }
+#footerlink{
+  text-decoration: none;
+  color: white;
+}
 
-  .FAQquestion{
-    font-weight:bold;
-  }
 
- 
+/*blog below*/
+.FAQquestion{
+ font-weight:bold;
+}
 
-  .blogpost{
-    border-bottom:1px solid black;
-    width: 100%;
-  }
+.blogpost{
+  border-bottom:1px solid black;
+  width: 100%;
+}
 
-  #blogtitel{
-    text-align: center;
-  }
+#blogtitel{
+  text-align: center;
+}
 
-  table, th, td {
-    border:1px solid black;
-  }
+table, th, td {
+  border:1px solid black;
+}
 
-  #td{
-    border:1px solid black;
-  }
 
-  #tablenote{
-    margin:0px;
-    color: black;
-  }
+/*dashboard below*/
+#td{
+ border:1px solid black;
+}
+
+#tablenote{
+  margin:0px;
+  color: black;
+}
 
 progress{
   margin:16px,
@@ -224,14 +232,14 @@ progress{
 
 progress[value] {
   -webkit-appearance: none;
-   appearance: none;
-
+  appearance: none;
   width: 250px;
   height: 15px;
 }
 
 progress[value]::-webkit-progress-value {
-  background-color:#af3e3e}
+  background-color:#af3e3e
+}
 
 progress[value]::-webkit-progress-bar {
 background-color: #888888;
