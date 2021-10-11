@@ -86,8 +86,8 @@ body {
   font-family: Arial;
   margin: 0px;
   background-color:#e0e4e4;
-margin-left: 0px;
-margin-right: 0px;}
+ margin-left: 0px;
+ margin-right: 0px;}
 
 #navbar {
   background-color: #af3e3e;
@@ -109,28 +109,38 @@ main{margin:10px;
 }
 
 /*navbar below*/
-#navbar a {
+.navbarbutton {
   color: rgb(0, 0, 0);
   padding: 5px;
   margin-left: 5px;
-  background-color: rgb(255, 255, 255);
+  background-color: #D4E7E7;
   text-decoration: none;
+  border-radius: 3px;
+}
+
+#name {
+  margin-left:700px;
+  color: rgb(240, 240, 240);
+  padding: 5px;
+  background-color: #468484;
+  text-decoration: none;
+  border-radius: 10px;
 }
 
 #navbar a:hover{
-  background-color: rgb(173, 173, 173);
-  text-decoration: underline;
+  background-color: #468484;
+  color:white;
 }
 
 #currentpage{
-  background-color:rgb(173, 173, 173) !important;
-  text-decoration: underline !important;
+  background-color:#468484 !important;
+  color:white;
 }
 
 /*footer below*/
 footer{
   bottom:0px;
-  background-color:#888888;
+  background-color:#468484;
   bottom: 0px;
   right: 0px;
   left:0px;

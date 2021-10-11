@@ -11,33 +11,55 @@ main {
 }
 
    /*navbar below*/
-  #navbar {
+   #navbar {
     background-color: #af3e3e;
     display: block;
     bottom: 0;
     right: 10;
     left:10;
-    padding-top:10px;
+    padding-top:16px;
     width: 100%;
     height: 30px;
     position:static;
     top: 0;
-  
   }
   /*change padding-top to 30 and position to fixed for a fixed navbar*/
   main{margin:10px;
     padding-top: 0px;
   }
  
-  #navbar a {
-    color: rgb(0, 0, 0);
-    padding: 5px;
-    margin-left: 5px;
-    background-color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
+/*navbar below*/
+.navbarbutton {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-left: 5px;
+  background-color: #D4E7E7;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#name {
+  margin-left:700px;
+  color: rgb(240, 240, 240);
+  padding: 5px;
+  background-color: #468484;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+#navbar a:hover{
+  background-color: #468484;
+  color:white;
+}
+
+#currentpage{
+  background-color:#468484 !important;
+  color:white;
+}
   
-  #navbar a:hover{
+
+
+  .navbarbutton a:hover{
     background-color: rgb(173, 173, 173);
     text-decoration: underline;
   }
@@ -126,3 +148,8 @@ footer{
       float:right;
     }
 
+    #namebar{
+      text-align: center;
+      padding: 30px;
+
+    }
