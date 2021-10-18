@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+</head>
+
+<body>
+    <h1>your text is: "<span id=message></span>"</h1>
+    <button onClick="window.location.reload();">run again</button>
+</body>
+
+<script>
+
+answer = window.prompt("would you like to encrypt or decrypt?"); //asks the user the programme should encrypt or decrypt. If input is "encrypt" or "1", it encrypts. If input is "decrypt" or "0", it decrypts
+if(answer == "1" || answer == "encrypt"){
+    encrypt();
+} else if(answer == "decrypt" || answer == "0"){
+    decrypt();
+} else{
+    window.alert("i didn't understand that, please tell me to 'encrypt' or 'decrypt' "); // If an unknown command is inserted, the programme will notify the user and asks if it should run again
+}
+function decrypt(){
+
+let encryptedSentence = window.prompt("what sentence would you like to decrypt?");
+
+
+
+unletteredSentence=(unletter(encryptedSentence))
+console.log(unletteredSentence)
+console.log()
+document.getElementById("message").innerHTML = reverse(unletteredSentence);
+
+
+
+//decrypts by removing every second character, then outputs to the console.
+function unletter(encryptedSentence) {
+    let unletteredSentence = "";
+for (let i = 0; i < encryptedSentence.length; i=i+2) {
+ unletteredSentence += encryptedSentence[i];
+} 
+return unletteredSentence
+}
+}
+
+
+
+function encrypt(sentence){
+sentence = window.prompt("what sentence would you like to encrypt?");
+
+let reversedSentence = "";
+let reversedLetteredSentence = "";
+document.getElementById("message").innerHTML = letter(reverse(sentence, reversedSentence));
+
+
+// encrypts ("letters") by adding a random character from "characters" after every letter in the input sentence, then outputs to the console.
+function letter(reversedSentence){
+const characters = ["q", "w", "e", "r", "t", "y", "u", "i", "o", "p", "a", "s", "d", "f", "g", "h", "j", "k", "l", "z", "x", "c", "v", "b", "n", "m", ",",";"," ", "  ","?","!"]
+reversedLetteredSentence = "";
+for (let i = 0; i < reversedSentence.length; i++) {
+    reversedLetteredSentence += reversedSentence[i];
+    reversedLetteredSentence += characters[(Math.floor(Math.random() * characters.length))];
+}return reversedLetteredSentence;
+}
+}
+
+//reverses the given sentence
+function reverse(sentence, reversedSentence){
+    reversedSentence = ""
+        for (var i = sentence.length - 1; i >= 0; i--) {
+            
+            reversedSentence += sentence[i];
+        }
+        return reversedSentence;
+}
+
+</script>
+</html>
